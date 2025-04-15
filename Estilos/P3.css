@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: #0a0a0a;
+    font-size: 2em;
+}
+body{
+    background-color:  #f3f0ec;
+}
+
+/*inicia sección 1*/
+.section-1{
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(90deg,#4b3619,#916731, #c78e44,#f5af54,#c78e44,#916731,#4b3619);
+    padding-top: 1.5em;
+}
+
+.header{
+    background: linear-gradient(90deg,  #575656 ,#3e3e3e,  #575656);
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 25%;
+    height: 200%;
+}
+.menu{
+    width: 55%;
+    height: 100%;
+    font-size: 1.15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.img img{
+    object-fit: cover;
+    height: 100%;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(240, 215, 183);
+    padding: 2em 1em;
+}
+
+.menu a:hover{
+    background-color: #000000;
+}
+
+/*seccion 2*/
+.section2 {
+    padding: 2em;
+    background-color: #f0f0f0;
+}
+
+.info-pedidos-envios {
+    margin-bottom: 2em;
+}
+
+.info-pedidos-envios h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.info-pedidos-envios p {
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: #333;
+}
+.info-pedidos-envios p i {
+    font-size: 2.5em; /* Ajusta este valor para cambiar el tamaño de los iconos */
+    margin-right: 0.5em; /* Espacio entre el icono y el texto */
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.catalogo .producto {
+    background-color: #f6e2ca;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(10em - 1em);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.catalogo .producto img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.catalogo .producto h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.catalogo .producto p {
+    font-size: 1em;
+    color: #666;
+}
+
+.catalogo .producto strong {
+    font-size: 1.2em;
+    color: #000;
+}
+
+
+/*seccion 3*/
+.section-3{
+    width: 100%;
+    height: 10em;
+    background: #131212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 hr{
+    background: linear-gradient(90deg,#5a2b02, #f5af54,#5a2b02);
+    width: 100%;
+    height: 5%;
+    border: none;
+}
+.s3-contenido{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.s3-logo{
+    width: 25%;
+}
+
+.s3-logo img{
+    object-fit: cover;
+    height: 115%;
+}
+
+.s3-texto{
+    width: 30%;
+}
+.s3-texto h3{
+    font-size: 1.1em;
+    color: #ece2e2;
+    margin: 0.25em 0;
+}
+
+.s3-texto p{
+    font-size: 0.9em;
+    color: #f5ecec;
+}
+
+.footer{
+    width: 100%;
+    height: 30%;
+    border-top: #f1b10e solid 0.0725em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: rgb(13, 13, 13);
+    padding: 0 10%;
+}
+
+.autor{
+    text-decoration: none;
+    color: #fff;
+    margin: 0.25em;
+}
+
+.politicas{
+    text-decoration: none;
+    color: #fff;
+    margin: 5em;
+}
+.footer .s3-redes {
+    margin: 0.5em 5em;
+}
+
+.footer .s3-red {
+    margin: 0 0.25em;
+    color: #fff;
+    font-size: 1.5em;
+}
