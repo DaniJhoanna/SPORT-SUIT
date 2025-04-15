@@ -67,7 +67,6 @@
                         <a href="#">daniela.chavez@espoch.edu.ec</a>
                     </div>
                 </div>
-            
                     <footer class="footer">
                         <div class="s3-redes">
                             <a href="https://www.facebook.com/?locale=es_LA" class="s3-red"><i class="fab fa-facebook-f"></i></a>
@@ -80,5 +79,29 @@
                         <a href="#" class="politicas">Politicas de privacidad</a>
                     </footer>
             </section>
+            <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+            <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+            <df-messenger
+              project-id="paginaweb-456822"
+              agent-id="f4ac86ba-b57d-4087-b874-a572dd8595c4"
+              language-code="es"
+              max-query-length="-1">
+              <df-messenger-chat-bubble
+                chat-title="agente_pagina_web">
+              </df-messenger-chat-bubble>
+            </df-messenger>
+            <style>
+              df-messenger {
+                z-index: 999;
+                position: fixed;
+                --df-messenger-font-color: #000;
+                --df-messenger-font-family: Google Sans;
+                --df-messenger-chat-background: #f3f6fc;
+                --df-messenger-message-user-background: #d3e3fd;
+                --df-messenger-message-bot-background: #fff;
+                bottom: 16px;
+                right: 16px;
+              }
+            </style>
     </body>
 </html>
